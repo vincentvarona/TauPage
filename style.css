@@ -10,7 +10,6 @@ header {
 	flex-direction: column;
 	text-align: center;
 	height: 250px;
-	max-width: 100vh;
 }
 
 header #logo {
@@ -71,7 +70,6 @@ main button {
 }
 
 main button:hover {
-	background-color: lightgoldenrodyellow;
 	color: #C59362;
 	transition: 0.5s;
 }
@@ -79,12 +77,45 @@ main button:hover {
 @keyframes fadein {
   from {
     margin-left: 100%;
-    width: 300%
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
   }
 }
 
+@media screen and (min-width: 800px) {
+  header {
+  	align-items: center;
+  	height: 200px;
+  }
+
+  header #hamb {
+  	display: none;
+  }
+
+  header ul {
+  	display: flex;
+  	flex-direction: row;
+  	animation-duration: 1s;
+  	animation-name: fadein;
+
+  }
+
+  header ul li {
+  	font-size: 30px;
+  	cursor: pointer;
+  }
+
+  header ul li:hover {
+  	color: #FFFFFF;
+  	transition: 1s;
+  }
+
+  main button {
+
+  	cursor: pointer;
+  }
+
+
+ }
