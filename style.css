@@ -51,7 +51,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 60px;
+	font-size: 50px;
 	color: lightgoldenrodyellow;
 	text-align: center;
 	flex-direction: column;
@@ -112,8 +112,11 @@ main button:hover {
   	transition: 1s;
   }
 
-  main button {
+  main {
+  	font-size: 60px;
+  }
 
+  main button {
   	cursor: pointer;
   }
 
