@@ -62,7 +62,7 @@ main {
 	flex-direction: column;
 }
 
-main button {
+main button, section button {
 	width: 90px;
 	height: 50px;
 	border: 1px solid #fafad2;
@@ -74,18 +74,18 @@ main button {
 	margin: 30px;
 }
 
-main a {
+main a, section a {
 	text-decoration: none;
 	color: #fafad2;
 }
 
-main button:hover {
+main button:hover, section button:hover {
 	transition: 0.5s;
 	background-color: #fafad2;
 	color: black;
 }
 
-main button a:hover {
+main button a:hover, section button a:hover {
 	color: black;
 }
 
