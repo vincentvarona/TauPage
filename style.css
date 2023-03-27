@@ -41,8 +41,6 @@ header ul li a {
 
 header ul {
 	display: none;
-	animation-duration: 0.3s;
-  	animation-name: fadein;
 }
 
 main {
@@ -60,6 +58,11 @@ main {
 	color: lightgoldenrodyellow;
 	text-align: center;
 	flex-direction: column;
+}
+
+main h2 {
+	animation-duration: 1s;
+  animation-name: fadein;
 }
 
 main button, section button {
@@ -117,6 +120,24 @@ section p {
 	width: 220px;
 }
 
+#products {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos3.jpg);
+}
+
+#muestra {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.prod {
+	width: 200px;
+	height: 350px;
+	background-color: blue;
+	margin: 20px;
+}
+
 @keyframes fadein {
   from {
     margin-left: 100%;
@@ -139,6 +160,7 @@ section p {
   	height: 80px;
   	width: 150px;
   	margin: 0px;
+
   }
 
   header #hamb {
@@ -148,8 +170,6 @@ section p {
   header ul {
   	display: flex;
   	flex-direction: row;
-  	animation-duration: 1s;
-  	animation-name: fadein;
   	margin: 30px;
   }
 
