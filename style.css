@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	scroll-behavior: smooth;
 }
 
 header {
@@ -45,12 +46,12 @@ header ul {
 }
 
 main {
-	background-image: url(aderezos.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(aderezos.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 530px;
+	height: 730px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -89,19 +90,31 @@ main button a:hover {
 }
 
 section {
-	background-image: url(aderezos2.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos2.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 620px;
+	height: 800px;
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 30px;
+	font-size: 50px;
 	color: lightgoldenrodyellow;
 	text-align: center;
 	flex-direction: column;
+}
+
+section h2 {
+	margin-top: 30px;
+	color: #fafad2;
+}
+
+section p {
+	font-size: 20px;
+	width: 300px;
+	color: white;
+	width: 220px;
 }
 
 @keyframes fadein {
@@ -152,11 +165,33 @@ section {
 
   main {
   	font-size: 60px;
+  	height: 680px;
   }
 
   main button {
   	cursor: pointer;
   }
+
+  section {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos2.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 70px;
+	color: lightgoldenrodyellow;
+	text-align: center;
+	flex-direction: column;
+}
+
+section p {
+	font-size: 25px;
+	width: 300px;
+}
 
 
  }
