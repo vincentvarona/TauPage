@@ -44,7 +44,7 @@ header ul {
 }
 
 main {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(aderezos.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/backgrounds/aderezos.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -93,7 +93,7 @@ main button a:hover, section button a:hover {
 }
 
 section {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos2.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -121,7 +121,8 @@ section p {
 }
 
 #products {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos3.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos3.jpg);
+	height: 1900px;
 }
 
 #muestra {
@@ -133,9 +134,65 @@ section p {
 
 .prod {
 	width: 200px;
-	height: 350px;
-	background-color: blue;
+	height: 400px;
+	background-color: black;
 	margin: 20px;
+	border-radius: 20px;
+	border-color: blue;
+	overflow: hidden;
+	transition: 1.5s ease;
+	-webkit-transition: 1.5s ease;	
+}
+
+.prod img {
+	width: 160px;
+	height: 300px;
+}
+
+.prod:hover {
+  cursor:pointer;
+  transform : scale(1.1);
+  -webkit-transform : scale(1.1);
+}
+
+#muestra h3 {
+	color: white;
+	margin-top: 10px;
+}
+
+footer {
+	height: 50px;
+	background-color: #fafad2;
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h4 {
+	font-size: 20px;
+}
+
+footer img {
+	width: 35px;
+	height: 35px;
+	margin: 0px 10px 0px 10px;
+}
+
+footer #tw {
+	width: 30px;
+	height: 30px;
+}
+
+footer #yt {
+	width: 33px;
+	height: 33px;
+}
+
+footer #ig {
+	width: 30px;
+	height: 30px;
 }
 
 @keyframes fadein {
@@ -193,7 +250,7 @@ section p {
   }
 
   section {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(aderezos2.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -213,5 +270,43 @@ section p {
 	width: 300px;
 }
 
+#products {
+	height: 800px;
+}
+
+#muestra {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+#muestra h3 {
+	font-size: 50px;
+}
+
+footer h4 {
+	font-size: 30px;
+}
+
+footer img {
+	margin: 0px 10px 0px 10px;
+}
+
+footer #tw {
+	width: 30px;
+	height: 30px;
+}
+
+footer #yt {
+	width: 35px;
+	height: 35px;
+}
+
+footer #ig {
+	width: 30px;
+	height: 30px;
+}
 
  }
