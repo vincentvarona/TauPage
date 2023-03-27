@@ -1,312 +1,312 @@
-* {
-	margin: 0px;
-	padding: 0px;
-	scroll-behavior: smooth;
-}
+	* {
+		margin: 0px;
+		padding: 0px;
+		scroll-behavior: smooth;
+	}
 
-header {
-	background-color: #fafad2/*#C59362*/;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	text-align: center;
-	height: 100px;
-}
+	header {
+		background-color: #fafad2/*#C59362*/;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		text-align: center;
+		height: 100px;
+	}
 
-header #logo {
-	width: 150px;
-	height: 75px;
-	margin: 0 auto;
-}
+	header #logo {
+		width: 150px;
+		height: 75px;
+		margin: 0 auto;
+	}
 
-header #hamb {
-	width: 30px;
-	height: 30px;
-	margin: 0 auto;
-}
+	header #hamb {
+		width: 30px;
+		height: 30px;
+		margin: 0 auto;
+	}
 
-header ul li {
-	font-family: sans-serif;
-	font-size: 20px;
-	margin: 0px 10px 0px 10px;
-	list-style: none;
-	font-family: 'Bebas Neue', cursive;
-}
+	header ul li {
+		font-family: sans-serif;
+		font-size: 20px;
+		margin: 0px 10px 0px 10px;
+		list-style: none;
+		font-family: 'Bebas Neue', cursive;
+	}
 
-header ul li a {
-	text-decoration: none;
-	color: black;
-}
+	header ul li a {
+		text-decoration: none;
+		color: black;
+	}
 
-header ul {
-	display: none;
-}
+	header ul {
+		display: none;
+	}
 
-main {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/backgrounds/aderezos.jpg);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 800px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 50px;
-	color: lightgoldenrodyellow;
-	text-align: center;
-	flex-direction: column;
-}
+	main {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/backgrounds/aderezos.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 800px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 50px;
+		color: lightgoldenrodyellow;
+		text-align: center;
+		flex-direction: column;
+	}
 
-main h2 {
-	animation-duration: 1s;
-  animation-name: fadein;
-}
+	main h2 {
+		animation-duration: 1s;
+	  animation-name: fadein;
+	}
 
-main button, section button {
-	width: 90px;
-	height: 50px;
-	border: 1px solid #fafad2;
-	background-color: transparent;
-	color: #fafad2;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 20px;
-	border-radius: 15px;
-	margin: 30px;
-}
+	main button, section button {
+		width: 90px;
+		height: 50px;
+		border: 1px solid #fafad2;
+		background-color: transparent;
+		color: #fafad2;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 20px;
+		border-radius: 15px;
+		margin: 30px;
+	}
 
-main a, section a {
-	text-decoration: none;
-	color: #fafad2;
-}
+	main a, section a {
+		text-decoration: none;
+		color: #fafad2;
+	}
 
-main button:hover, section button:hover {
-	transition: 0.5s;
-	background-color: #fafad2;
-	color: black;
-}
+	main button:hover, section button:hover {
+		transition: 0.5s;
+		background-color: #fafad2;
+		color: black;
+	}
 
-main button a:hover, section button a:hover {
-	color: black;
-}
+	main button a:hover, section button a:hover {
+		color: black;
+	}
 
-section {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 800px;
-	display: flex;
-	align-items: center;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 50px;
-	color: lightgoldenrodyellow;
-	text-align: center;
-	flex-direction: column;
-}
+	section {
+		background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 800px;
+		display: flex;
+		align-items: center;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 50px;
+		color: lightgoldenrodyellow;
+		text-align: center;
+		flex-direction: column;
+	}
 
-section h2 {
-	margin-top: 30px;
-	color: #fafad2;
-}
+	section h2 {
+		margin-top: 30px;
+		color: #fafad2;
+	}
 
-section p {
-	font-size: 20px;
-	width: 300px;
-	color: white;
-	width: 220px;
-}
+	section p {
+		font-size: 20px;
+		width: 300px;
+		color: white;
+		width: 220px;
+	}
 
-#products {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos3.jpg);
-	height: 1900px;
-}
+	#products {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos3.jpg);
+		height: 1900px;
+	}
 
-#muestra {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
+	#muestra {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
-.prod {
-	width: 200px;
-	height: 400px;
-	background-color: black;
-	margin: 20px;
-	border-radius: 20px;
-	border-color: blue;
-	overflow: hidden;
-	transition: 1.5s ease;
-	-webkit-transition: 1.5s ease;	
-}
+	.prod {
+		width: 200px;
+		height: 400px;
+		background-color: black;
+		margin: 20px;
+		border-radius: 20px;
+		border-color: blue;
+		overflow: hidden;
+		transition: 1.5s ease;
+		-webkit-transition: 1.5s ease;	
+	}
 
-.prod img {
-	width: 160px;
-	height: 300px;
-}
+	.prod img {
+		width: 160px;
+		height: 300px;
+	}
 
-.prod:hover {
-  cursor:pointer;
-  transform : scale(1.1);
-  -webkit-transform : scale(1.1);
-}
+	.prod:hover {
+	  cursor:pointer;
+	  transform : scale(1.1);
+	  -webkit-transform : scale(1.1);
+	}
 
-#muestra h3 {
-	color: white;
-	margin-top: 10px;
-}
+	#muestra h3 {
+		color: white;
+		margin-top: 10px;
+	}
 
-footer {
-	height: 50px;
-	background-color: #fafad2;
-	font-family: 'Bebas Neue', cursive;
-	color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	footer {
+		height: 50px;
+		background-color: #fafad2;
+		font-family: 'Bebas Neue', cursive;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-footer h4 {
-	font-size: 20px;
-}
+	footer h4 {
+		font-size: 20px;
+	}
 
-footer img {
-	width: 35px;
-	height: 35px;
-	margin: 0px 10px 0px 10px;
-}
+	footer img {
+		width: 35px;
+		height: 35px;
+		margin: 0px 10px 0px 10px;
+	}
 
-footer #tw {
-	width: 30px;
-	height: 30px;
-}
+	footer #tw {
+		width: 30px;
+		height: 30px;
+	}
 
-footer #yt {
-	width: 33px;
-	height: 33px;
-}
+	footer #yt {
+		width: 33px;
+		height: 33px;
+	}
 
-footer #ig {
-	width: 30px;
-	height: 30px;
-}
+	footer #ig {
+		width: 30px;
+		height: 30px;
+	}
 
-@keyframes fadein {
-  from {
-    margin-left: 100%;
-  }
+	@keyframes fadein {
+	  from {
+	    margin-left: 100%;
+	  }
 
-  to {
-    margin-left: 0%;
-  }
-}
+	  to {
+	    margin-left: 0%;
+	  }
+	}
 
-@media screen and (min-width: 800px) {
-  header {
-  	justify-content: space-around;
-  	height: 100px;
-  	display: flex;
-  	flex-direction: row;
-  }
+	@media screen and (min-width: 800px) {
+	  header {
+	  	justify-content: space-around;
+	  	height: 100px;
+	  	display: flex;
+	  	flex-direction: row;
+	  }
 
-  header #logo {
-  	height: 80px;
-  	width: 150px;
-  	margin: 0px;
+	  header #logo {
+	  	height: 80px;
+	  	width: 150px;
+	  	margin: 0px;
 
-  }
+	  }
 
-  header #hamb {
-  	display: none;
-  }
+	  header #hamb {
+	  	display: none;
+	  }
 
-  header ul {
-  	display: flex;
-  	flex-direction: row;
-  	margin: 30px;
-  }
+	  header ul {
+	  	display: flex;
+	  	flex-direction: row;
+	  	margin: 30px;
+	  }
 
-  header ul li {
-  	font-size: 30px;
-  	cursor: pointer;
-  }
+	  header ul li {
+	  	font-size: 30px;
+	  	cursor: pointer;
+	  }
 
-  header ul li:hover {
-  	color: #FFFFFF;
-  	transition: 1s;
-  }
+	  header ul li:hover {
+	  	color: #FFFFFF;
+	  	transition: 1s;
+	  }
 
-  main {
-  	font-size: 60px;
-  	height: 680px;
-  }
+	  main {
+	  	font-size: 60px;
+	  	height: 680px;
+	  }
 
-  main button {
-  	cursor: pointer;
-  }
+	  main button {
+	  	cursor: pointer;
+	  }
 
-  section {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 800px;
-	display: flex;
-	align-items: center;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 70px;
-	color: lightgoldenrodyellow;
-	text-align: center;
-	flex-direction: column;
-}
+	  section {
+		background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/backgrounds/aderezos2.jpg);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 800px;
+		display: flex;
+		align-items: center;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 70px;
+		color: lightgoldenrodyellow;
+		text-align: center;
+		flex-direction: column;
+	}
 
-section p {
-	font-size: 25px;
-	width: 300px;
-}
+	section p {
+		font-size: 25px;
+		width: 300px;
+	}
 
-#products {
-	height: 800px;
-}
+	#products {
+		height: 800px;
+	}
 
-#muestra {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	margin-top: 80px;
-}
+	#muestra {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: 80px;
+	}
 
-#muestra h3 {
-	font-size: 50px;
-}
+	#muestra h3 {
+		font-size: 50px;
+	}
 
-footer h4 {
-	font-size: 30px;
-}
+	footer h4 {
+		font-size: 30px;
+	}
 
-footer img {
-	margin: 0px 10px 0px 10px;
-}
+	footer img {
+		margin: 0px 10px 0px 10px;
+	}
 
-footer #tw {
-	width: 30px;
-	height: 30px;
-}
+	footer #tw {
+		width: 30px;
+		height: 30px;
+	}
 
-footer #yt {
-	width: 35px;
-	height: 35px;
-}
+	footer #yt {
+		width: 35px;
+		height: 35px;
+	}
 
-footer #ig {
-	width: 30px;
-	height: 30px;
-}
+	footer #ig {
+		width: 30px;
+		height: 30px;
+	}
 
- }
+	 }
