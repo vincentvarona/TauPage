@@ -4,34 +4,38 @@
 }
 
 header {
-	background-color: #C59362;
+	background-color: #fafad2/*#C59362*/;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	align-items: center;
+	flex-direction: row;
 	text-align: center;
-	height: 250px;
+	height: 100px;
 }
 
 header #logo {
-	width: 200px;
-	height: 100px;
+	width: 150px;
+	height: 75px;
 	margin: 0 auto;
-	padding: 20px;
 }
 
 header #hamb {
 	width: 30px;
 	height: 30px;
 	margin: 0 auto;
-	padding:10px;
 }
 
 header ul li {
 	font-family: sans-serif;
-	padding: 5px;
 	font-size: 20px;
+	margin: 0px 10px 0px 10px;
 	list-style: none;
 	font-family: 'Bebas Neue', cursive;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: black;
 }
 
 header ul {
@@ -46,7 +50,7 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 650px;
+	height: 530px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -58,20 +62,46 @@ main {
 }
 
 main button {
-	width: 80px;
+	width: 90px;
 	height: 50px;
-	border: 1px solid white;
+	border: 1px solid #fafad2;
 	background-color: transparent;
-	color: lightgoldenrodyellow;
+	color: #fafad2;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 20px;
 	border-radius: 15px;
 	margin: 30px;
 }
 
+main a {
+	text-decoration: none;
+	color: #fafad2;
+}
+
 main button:hover {
-	color: #C59362;
 	transition: 0.5s;
+	background-color: #fafad2;
+	color: black;
+}
+
+main button a:hover {
+	color: black;
+}
+
+section {
+	background-image: url(aderezos2.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 620px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: lightgoldenrodyellow;
+	text-align: center;
+	flex-direction: column;
 }
 
 @keyframes fadein {
@@ -86,8 +116,16 @@ main button:hover {
 
 @media screen and (min-width: 800px) {
   header {
-  	align-items: center;
-  	height: 200px;
+  	justify-content: space-around;
+  	height: 100px;
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  header #logo {
+  	height: 80px;
+  	width: 150px;
+  	margin: 0px;
   }
 
   header #hamb {
@@ -99,7 +137,7 @@ main button:hover {
   	flex-direction: row;
   	animation-duration: 1s;
   	animation-name: fadein;
-
+  	margin: 30px;
   }
 
   header ul li {
