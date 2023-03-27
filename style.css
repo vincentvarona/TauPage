@@ -12,12 +12,14 @@
 		flex-direction: row;
 		text-align: center;
 		height: 100px;
+		border-bottom: 3px solid black;
 	}
 
 	header #logo {
 		width: 150px;
 		height: 75px;
 		margin: 0 auto;
+		cursor: pointer;
 	}
 
 	header #hamb {
@@ -75,11 +77,13 @@
 		font-size: 20px;
 		border-radius: 15px;
 		margin: 30px;
+		cursor: pointer;
 	}
 
 	main a, section a {
 		text-decoration: none;
 		color: #fafad2;
+		cursor: pointer;
 	}
 
 	main button:hover, section button:hover {
@@ -300,8 +304,8 @@
 	}
 
 	footer #yt {
-		width: 35px;
-		height: 35px;
+		width: 33px;
+		height: 33px;
 	}
 
 	footer #ig {
