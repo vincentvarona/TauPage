@@ -139,7 +139,7 @@
 	.prod {
 		width: 200px;
 		height: 400px;
-		background-color: black;
+		background-color: rgba(0,0,0,0.2);
 		margin: 20px;
 		border-radius: 20px;
 		border-color: blue;
